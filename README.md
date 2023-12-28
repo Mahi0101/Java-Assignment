@@ -26,3 +26,10 @@ The Voting System REST API provides endpoints to manage candidates, cast votes, 
 - Count the votes for a specific candidate.
 - List all candidates along with their respective vote counts.
 - Get the winner with the highest number of votes.
+
+## API Endpoints
+GET /entercandidate?name={candidateName} - Add a new candidate to the system.
+POST /castvote?name={candidateName} - Cast a vote for a candidate.
+GET /countvote?name={candidateName} - Retrieve the vote count for a candidate.
+GET /listvote - List all candidates and their vote counts.
+GET /getwinner - Get the name of the candidate with the highest
