@@ -1,0 +1,34 @@
+Architecture Documentation
+
+
+Overview
+The Voting System REST API is designed to manage candidates and votes through a set of HTTP endpoints, allowing users to perform various voting-related actions.
+
+Goals
+Provide an intuitive and accessible API for managing candidates and votes.
+Implement a lightweight solution without relying on a database.
+Ensure reliability, scalability, and performance for handling multiple concurrent users.
+
+
+System Components
+Spring Boot Application: Core component responsible for handling HTTP requests and managing candidate and vote data.
+Candidate Management Module: Manages candidate-related operations such as adding new candidates and retrieving candidate information.
+
+Voting Module: Handles vote casting, vote counting, and winner determination functionalities.
+Design Patterns and Paradigms
+Utilizes RESTful principles for API endpoints and HTTP methods.
+Follows MVC (Model-View-Controller) pattern for request handling and response generation.
+
+Technologies and Tools
+Java, Spring Boot framework
+HTTP protocol for RESTful communication
+Postman for API testing
+High-Level Diagram
+Add a high-level architectural diagram depicting the interaction between components, HTTP requests, and data flow within the system.
+
+Design Documentation
+Design Principles
+Maintain simplicity in handling candidate and vote management operations.
+Ensure separation of concerns between candidate management, voting functionality, and request handling.
+Detailed Component Designs
+
